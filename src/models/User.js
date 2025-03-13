@@ -8,4 +8,4 @@ const UserSchema = new mongoose.Schema({
     balance: { type: Number, default: 1000 },
 }, { timestamps: true });
 
-export default mongoose.model("User", UserSchema);
+export default mongoose.model("UserTrading", UserSchema);
